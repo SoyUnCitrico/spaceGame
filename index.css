@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background: lightpink;
+}
+main {
+    background: black;
+}
+.canvas_score {
+    position: fixed;
+    background: transparent;
+    color: #fff;
+    margin: auto;
+}
+
+.modal {
+  position: fixed;
+  display: grid;
+}
+
+.modal_score {
+  /* margin-left: calc(100%);
+  margin-top: calc(50%); */
+  margin:calc(20%) calc(100%);
+  background: white;
+  padding:0.75rem 2rem;
+  text-align: center;
+  justify-self: center;
+  border-radius: 8px;
+}
+
+.modal_score h2 {
+    margin: 0.5rem;
+}
+
+.modal_score button {
+    margin: 0.5rem;
+    padding:0.75rem 2rem;
+    background: #46e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.modal_score button :hover{
+    margin: 0.5rem;
+    padding:0.75rem 2rem;
+    background: white;
+    color: #46e;
+    border: solid 1px #46e;
+    border-radius: 8px;
+}
+
+
+footer {
+    background: wheat;
+}
