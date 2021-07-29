@@ -1,6 +1,6 @@
 const canvas = document.querySelector("canvas");
 canvas.width = innerWidth;
-canvas.height = 600;
+canvas.height = innerHeight;
 const contextCanvas = canvas.getContext("2d");
 const scoreElt = document.querySelector("#scoreElt");
 const scoreFinal = document.querySelector("#score_final");
